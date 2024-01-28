@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Simples</title>
+    <link rel="stylesheet" href="conta.css">
+</head>
+<body>
+    <div>
+        <h1>Realize sua conta aqui:</h1>
+        <input type="number" id="inputNumber" placeholder="Número 1">
+        <input type="number" id="inputNumber2" placeholder="Número 2">
+        <br><br/>
+        <button onclick="multipliqueDoisNumeros()">x</button>
+        <button onclick="subtraiaDoisNumeros()">-</button>
+        <button onclick="someDoisNumerosJuntos()">+</button>
+        <button onclick="dividaDoisNumeros()">/</button>
+        <p id="outputNumber">Resultado</p>
+
+        <script src="conta.js"></script>
+    </div>
+    
+</body>
+</html>

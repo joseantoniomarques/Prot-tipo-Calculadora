@@ -1,0 +1,40 @@
+body{
+    background-image: linear-gradient(80deg, rgb(0, 0, 0), rgb(82, 74, 74));
+    font-family: Arial, Helvetica, sans-serif;
+}
+div{
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    padding: 55px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    border-radius: 10px;
+}
+input{
+    background-color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    background-color: rgb(9, 138, 138);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+} button:hover{
+    background-color: rgb(160, 193, 221);
+}
+p{
+    background-color: white;
+    padding: 18px;
+    color: black;
+    border-radius: 5px;
+}
